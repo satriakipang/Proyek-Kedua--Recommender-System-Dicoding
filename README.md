@@ -175,8 +175,7 @@ Pada hasil plot RMSE memiliki skor nilai RMSE sebesar 0.3000, nilai tersebut sud
 
 <br><br><br>
 
-### Rekomendasi yang diberikan model yaitu memberikan rekomendasi top-10 buku kepada user.
-
+### Rekomendasi yang diberikan model yaitu memberikan rekomendasi top-10 buku kepada user. <br>
 Rekomendasi untuk users: 253106
 ===========================
 Buku dengan peringkat tinggi dari user lain
@@ -189,17 +188,18 @@ Geoffrey Farrington - The Revenants
 --------------------------------
 Top 10 Rekomendasi Buku
 --------------------------------
-DR SEUSS - One Fish Two Fish Red Fish Blue Fish (I Can Read It All by Myself Beginner Books)
-Paul Vincent - Free
-Shel Silverstein - Falling Up
-Neil Gaiman - Death: The High Cost of Living
-Else Holmelund Minarik - A Kiss for Little Bear
-Bill Watterson - There's Treasure Everywhere--A Calvin and Hobbes Collection
-J. K. Rowling - Harry Potter and the Chamber of Secrets Postcard Book
-Bradley Trevor Greive - The Blue Day Book: A Lesson in Cheering Yourself Up
-Berkeley Breathed - Bloom County Babylon : Five Years of Basic Naughtiness (Bloom County)
+DR SEUSS - One Fish Two Fish Red Fish Blue Fish (I Can Read It All by Myself Beginner Books) <br>
+Paul Vincent - Free <br>
+Shel Silverstein - Falling Up <br>
+Neil Gaiman - Death: The High Cost of Living <br>
+Else Holmelund Minarik - A Kiss for Little Bear <br>
+Bill Watterson - There's Treasure Everywhere--A Calvin and Hobbes Collection <br>
+J. K. Rowling - Harry Potter and the Chamber of Secrets Postcard Book <br>
+Bradley Trevor Greive - The Blue Day Book: A Lesson in Cheering Yourself Up <br>
+Berkeley Breathed - Bloom County Babylon : Five Years of Basic Naughtiness (Bloom County) <br>
 DC Talk - Jesus Freaks: DC Talk and The Voice of the Martyrs - Stories of Those Who Stood For Jesus, the Ultimate Jesus Freaks
 
+<br><br><br>
 
 ## Referensi
 
