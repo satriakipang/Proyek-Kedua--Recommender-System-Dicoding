@@ -161,20 +161,8 @@ Pada kelas RecommenderNet diberikan parameter pada layer embedding antara lain:
 Cara kerja Model :
 1. Akan dilakukan proses embedding terhadap data user dan buku. Jumlah user dan buku yang didefinisikan pada `num_users` dan `num_isbn` bertujuan sebagai input untuk membuat vektor embedding keduanya. Sedangkan `embedding_size` menentukan ukuran atau dimensi embedding yang dibuat. Semakin besar nilai dari `embedding_size` akan membuat model semakin akurat, namun jika berlebihan akan mengakibatkan model menjadi overfit. 
 2. Dilakukan operasi perkalian *dot product* antara embedding user dan buku. Selain itu, kita juga dapat menambahkan bias untuk setiap user dan buku. Skor kecocokan ditetapkan dalam skala [0,1] dengan fungsi aktivasi sigmoid.
-3. Model di-compile dengan fungsi loss binarycrossentropy, optimizer menggunakan Adam dengan learning rate sebesar 0.001.
+3. Model di-compile dengan fungsi loss binarycrossentropy, optimizer menggunakan Adam dengan learning rate sebesar 0.001. <br><br>
 
-
-## Evaluation
-Pada projek ini menggunakan metrik RMSE (Root Mean Square Error) untuk mengevaluasi kinerja model yang dihasilkan. RMSE adalah cara standar untuk mengukur kesalahan model dalam memprediksi data kuantitatif. Root Mean Squared Error (RMSE) mengevaluasi model regresi linear dengan mengukur tingkat akurasi hasil perkiraan suatu model. 
-
-Selanjutnya akan diplot metrik RMSE pelatihan model. <br>
-<img src="gambar/plot_rmse.png" style="zoom:70%;" />
-
-<br>
-Pada hasil plot RMSE memiliki skor nilai RMSE sebesar 0.3000, nilai tersebut sudah cukup bagus. 
-
-<br><br><br>
-## Modeling and Result
 ### Rekomendasi yang diberikan model yaitu memberikan rekomendasi top-10 buku kepada user. <br>
 Rekomendasi untuk users: 253106 <br>
 =========================== <br><br>
@@ -197,6 +185,18 @@ J. K. Rowling - Harry Potter and the Chamber of Secrets Postcard Book <br>
 Bradley Trevor Greive - The Blue Day Book: A Lesson in Cheering Yourself Up <br>
 Berkeley Breathed - Bloom County Babylon : Five Years of Basic Naughtiness (Bloom County) <br>
 DC Talk - Jesus Freaks: DC Talk and The Voice of the Martyrs - Stories of Those Who Stood For Jesus, the Ultimate Jesus Freaks
+
+<br><br><br>
+
+
+## Evaluation
+Pada projek ini menggunakan metrik RMSE (Root Mean Square Error) untuk mengevaluasi kinerja model yang dihasilkan. RMSE adalah cara standar untuk mengukur kesalahan model dalam memprediksi data kuantitatif. Root Mean Squared Error (RMSE) mengevaluasi model regresi linear dengan mengukur tingkat akurasi hasil perkiraan suatu model. 
+
+Selanjutnya akan diplot metrik RMSE pelatihan model. <br>
+<img src="gambar/plot_rmse.png" style="zoom:70%;" />
+
+<br>
+Pada hasil plot RMSE memiliki skor nilai RMSE sebesar 0.3000, nilai tersebut sudah cukup bagus. 
 
 <br><br><br>
 
