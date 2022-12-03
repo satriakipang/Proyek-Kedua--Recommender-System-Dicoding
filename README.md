@@ -176,16 +176,17 @@ Pada hasil plot RMSE memiliki skor nilai RMSE sebesar 0.3000, nilai tersebut sud
 <br><br><br>
 
 ### Rekomendasi yang diberikan model yaitu memberikan rekomendasi top-10 buku kepada user. <br>
-Rekomendasi untuk users: 253106
+Rekomendasi untuk users: 253106 <br>
 ===========================
-Buku dengan peringkat tinggi dari user lain
+Buku dengan peringkat tinggi dari user lain <br>
 --------------------------------
-Harper Lee - To Kill a Mockingbird
-Ann Patchett - Bel Canto: A Novel
-Anita Shreve - The Last Time They Met : A Novel
-Dominick Dunne - The Two Mrs. Grenvilles
-Geoffrey Farrington - The Revenants
+Harper Lee - To Kill a Mockingbird <br>
+Ann Patchett - Bel Canto: A Novel <br>
+Anita Shreve - The Last Time They Met : A Novel <br>
+Dominick Dunne - The Two Mrs. Grenvilles <br>
+Geoffrey Farrington - The Revenants  <br>
 --------------------------------
+<br><br>
 Top 10 Rekomendasi Buku
 --------------------------------
 DR SEUSS - One Fish Two Fish Red Fish Blue Fish (I Can Read It All by Myself Beginner Books) <br>
