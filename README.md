@@ -175,7 +175,7 @@ Pada hasil plot RMSE memiliki skor nilai RMSE sebesar 0.3000, nilai tersebut sud
 
 <br><br><br>
 
-###Rekomendasi yang diberikan model yaitu meberikan rekomendasi top-10 buku kepada user.
+### Rekomendasi yang diberikan model yaitu meberikan rekomendasi top-10 buku kepada user.
 
 Rekomendasi untuk users: 253106
 ===========================
