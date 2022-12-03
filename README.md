@@ -104,8 +104,8 @@ Selanjutnya akan mengecek distribusi rating pada Ratings.csv, mengunakan fungsi 
 
 <br>
 
-Selanjutnya, akan di visualisasikan jumlah reting yang diberikan oleh user.
-<img src="gambar/grafik_distribusi_reting.png" style="zoom:70%;" />
+Selanjutnya, akan di visualisasikan jumlah reting yang diberikan oleh user. <br>
+<img src="gambar/grafik_distribusi_reting.png" style="zoom:70%;" /> <br>
 Pada visualisasi diagram diperoleh bahwa reting yang diberikan dari 0 sampai 10 dan mayoritas user memberikan rating 0 pada buku, sehingga data tersebut tidak seimbang (imbalance). 
 <br>
 
@@ -167,7 +167,7 @@ Cara kerja Model :
 ## Evaluation
 Pada projek ini menggunakan metrik RMSE (Root Mean Square Error) untuk mengevaluasi kinerja model yang dihasilkan. RMSE adalah cara standar untuk mengukur kesalahan model dalam memprediksi data kuantitatif. Root Mean Squared Error (RMSE) mengevaluasi model regresi linear dengan mengukur tingkat akurasi hasil perkiraan suatu model. 
 
-Selanjutnya akan diplot metrik RMSE pelatihan model.
+Selanjutnya akan diplot metrik RMSE pelatihan model. <br>
 <img src="gambar/plot_rmse.png" style="zoom:70%;" />
 
 <br>
