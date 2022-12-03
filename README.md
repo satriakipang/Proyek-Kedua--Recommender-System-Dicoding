@@ -186,7 +186,7 @@ Anita Shreve - The Last Time They Met : A Novel <br>
 Dominick Dunne - The Two Mrs. Grenvilles <br>
 Geoffrey Farrington - The Revenants  <br>
 --------------------------------
-<br><br>
+<br>
 Top 10 Rekomendasi Buku
 --------------------------------
 DR SEUSS - One Fish Two Fish Red Fish Blue Fish (I Can Read It All by Myself Beginner Books) <br>
