@@ -1,7 +1,7 @@
 # Laporan Proyek Machine Learning - Fransiskus Ricardo
 
 ## Project Overview
-Buku adalah jendela dunia dan juga satu sumber informasi yang sangat luas untuk menambah pengetahuan. Pada era digital buku tidak hanya dalam bentuk fisik, tapi ada juga dalam bentuk buku elektronik. Kemudahan ini tidak membuat tingkat membaca indonesia meningkat. Faktanya, UNESCO menyatakan minat baca buku masyarakat indonesia sanagat rendah, hanya 0,001%. Artinya, dari 1,000 orang Indonesia, cuma 1 orang yang rajin membaca [Kominfo RI](https://www.kominfo.go.id/content/detail/10862/teknologi-masyarakat-indonesia-malas-baca-tapi-cerewet-di-medsos/0/sorotan_media). 
+Buku adalah jendela dunia dan juga sumber informasi yang sangat luas untuk menambah pengetahuan. Pada era digital buku tidak hanya dalam bentuk fisik, tapi ada juga dalam bentuk buku elektronik. Kemudahan ini tidak membuat tingkat membaca indonesia meningkat. Faktanya, UNESCO menyatakan minat baca buku masyarakat indonesia sanagat rendah, hanya 0,001%. Artinya, dari 1,000 orang Indonesia, cuma 1 orang yang rajin membaca [Kominfo RI](https://www.kominfo.go.id/content/detail/10862/teknologi-masyarakat-indonesia-malas-baca-tapi-cerewet-di-medsos/0/sorotan_media). 
 
 Hal tersebut sangat disayangkan.Oleh sebab itu penulis membuat sistem rekomendasi buku menggunakan Machine yaitu menggunakan Collaborative Filtering.
 
@@ -90,7 +90,7 @@ Selanjutnya, menghitung Jumlah buku pada setiap reting.
  
  <br>
 
-Selanjutnya akan mengecek distribusi rating pada Ratings.csv, mengunakan fungsi **describe()**.
+Selanjutnya akan mengecek distribusi rating pada Ratings.csv, menggunakan fungsi **describe()**.
 |index|User-ID|Book-Rating|
 |---|---|---|
 |count|1149780\.000000|1149780\.000000|
@@ -104,9 +104,9 @@ Selanjutnya akan mengecek distribusi rating pada Ratings.csv, mengunakan fungsi 
 
 <br>
 
-Selanjutnya, akan di visualisasikan jumlah reting yang diberikan oleh user. <br>
+Selanjutnya, akan di visualisasikan jumlah rating yang diberikan oleh user. <br>
 <img src="gambar/grafik_distribusi_reting.png" style="zoom:70%;" /> <br>
-Pada visualisasi diagram diperoleh bahwa reting yang diberikan dari 0 sampai 10 dan mayoritas user memberikan rating 0 pada buku, sehingga data tersebut tidak seimbang (imbalance). 
+Pada visualisasi diagram diperoleh bahwa rating yang diberikan dari 0 sampai 10 dan mayoritas user memberikan rating 0 pada buku, sehingga data tersebut tidak seimbang (imbalance). 
 <br>
 
 Pada dataset Ratings.csv terdapat 1149780 baris dan 3 kolom. Pada kolom berisi data ISBN, Book-Rating.
@@ -153,7 +153,7 @@ Teknik yang digunakan dalam penyiapan data *(Data Preparation)* yaitu:
 ## Modeling
 Pada tahap ini, model melakukan perhitung skor kecocokan antara user dan buku dengan teknik embedding. 
 
-Pada kelas RecommenderNet diberikan parameter pada layer embedding anatara lain:
+Pada kelas RecommenderNet diberikan parameter pada layer embedding antara lain:
 - `num_users` : jumlah data pengguna
 - `num_isbn` : jumlah data buku, dihitung berdasarkan ISBN
 - `embedding_size` : ukuran atau dimensi yang digunakan dalam embedding pada data user dan buku
@@ -175,7 +175,7 @@ Pada hasil plot RMSE memiliki skor nilai RMSE sebesar 0.3000, nilai tersebut sud
 
 <br><br><br>
 
-### Rekomendasi yang diberikan model yaitu meberikan rekomendasi top-10 buku kepada user.
+### Rekomendasi yang diberikan model yaitu memberikan rekomendasi top-10 buku kepada user.
 
 Rekomendasi untuk users: 253106
 ===========================
@@ -206,3 +206,5 @@ DC Talk - Jesus Freaks: DC Talk and The Voice of the Martyrs - Stories of Those 
 [[1](https://www.kominfo.go.id/content/detail/10862/teknologi-masyarakat-indonesia-malas-baca-tapi-cerewet-di-medsos/0/sorotan_media)] Devega, Evita . (2017). *TEKNOLOGI Masyarakat Indonesia: Malas Baca Tapi Cerewet di Medsos*. KOMINFO. https://www.kominfo.go.id/content/detail/10862/teknologi-masyarakat-indonesia-malas-baca-tapi-cerewet-di-medsos/0/sorotan_media
 
 [[2](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)] Moody, J. (2019). *What does RMSE really mean?*. Towards Data Science. https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e
+
+
