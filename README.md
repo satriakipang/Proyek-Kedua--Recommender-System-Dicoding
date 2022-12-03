@@ -184,8 +184,7 @@ Harper Lee - To Kill a Mockingbird <br>
 Ann Patchett - Bel Canto: A Novel <br>
 Anita Shreve - The Last Time They Met : A Novel <br>
 Dominick Dunne - The Two Mrs. Grenvilles <br>
-Geoffrey Farrington - The Revenants  <br>
--------------------------------- <br><br>
+Geoffrey Farrington - The Revenants  <br><br>
 ### Top 10 Rekomendasi Buku <br>
 -------------------------------- <br>
 DR SEUSS - One Fish Two Fish Red Fish Blue Fish (I Can Read It All by Myself Beginner Books) <br>
